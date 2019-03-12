@@ -19,7 +19,7 @@
   },
   "icon": "icon/icon128.png",
   "engines": {
-    "vscode": "^1.22.0"
+    "vscode": "^1.31.0"
   },
   "categories": [
     "Programming Languages",
@@ -142,6 +142,11 @@
             "!format"
           ],
           "description": "Custom tags for the parser to use"
+        },
+        "yaml.schemaStore.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically pull available YAML schemas from JSON Schema Store"
         }
       }
     },
@@ -170,12 +175,12 @@
     "@types/node": "^6.0.52",
     "ts-node": "^3.3.0",
     "typescript": "3.0.0-dev.20180626",
-    "vscode": "^1.1.17"
+    "vscode": "^1.1.29"
   },
   "dependencies": {
     "vscode-languageclient": "3.5.1",
     "vscode-nls": "^3.2.1",
     "vscode-uri": "^1.0.5",
-    "devops-as-code-language-server": "0.2.6"
+    "devops-as-code-language-server": "0.3.2"
   }
 }
