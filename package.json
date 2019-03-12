@@ -11,7 +11,7 @@
   "license": "MIT",
   "version": "0.1.0",
   "publisher": "XebiaLabs",
-  "preview": true,
+  "preview": false,
   "bugs": "http://xebialabs.zendesk.com/",
   "repository": {
     "type": "git",
