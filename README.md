@@ -13,6 +13,7 @@ This extension adds YAML support for the XebiaLabs DevOps Platform to Visual Stu
 * Code formatting
 * Code snippets
 * Context documentation
+* 
 
 ## Demo
 ![screencast](https://raw.githubusercontent.com/xebialabs/devops-as-code-vscode/master/images/demo.gif)
