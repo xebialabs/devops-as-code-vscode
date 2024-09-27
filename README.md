@@ -20,7 +20,7 @@ This extension adds YAML support for the XebiaLabs DevOps Platform to Visual Stu
 
 ## Usage info
 
-If you are looking for more information about how to get started with DevOps as Code, please have a look [here](https://docs.xebialabs.com/xl-platform/concept/getting-started-with-devops-as-code.html). For more information about this extension, please keep reading.
+If you are looking for more information about how to get started with DevOps as Code, please have a look [here](https://docs.xebialabs.com/xl-deploy/concept/get-started-with-devops-as-code). For more information about this extension, please keep reading.
 
 **Note:** By default, this extension provides DevOps as Code YAML support on all documents with the filename extension `.yaml`. This may conflict with other configuration file formats that also use the .yaml extension. See the section "Changing configuration" below.
 
@@ -39,7 +39,7 @@ As of XL Deploy and XL Release version 8.6, you can update the validation schema
 
 This extension uses a schema to validate the YAML. By default the extension comes with a default schema that includes only information of a standard installation of our products. If you have additional plugins installed or you have done customizations to the type system, the default schema might not validate your YAML correctly. You can solve this by downloading the schema from the XL Deploy and/or XL Release instance that you are using, and configure the extension to use that schema. You can use the XL CLI to download the schema.
 
-You can install the XL CLI by following the instructions on [this page](https://docs.xebialabs.com/xl-platform/how-to/install-the-xl-cli.html).
+You can install the XL CLI by following the instructions on [this page](https://docs.xebialabs.com/xl-deploy/how-to/install-the-xl-cli).
 
 You can generate a new schema by running this command:
 
