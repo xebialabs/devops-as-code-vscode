@@ -1,3 +1,6 @@
+⚠️ Repository Deprecated
+
+This repository has been deprecated and is now read-only. No further updates or bug fixes will be made.
 
 # DevOps as Code by XebiaLabs
 
